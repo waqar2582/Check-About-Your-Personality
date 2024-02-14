@@ -44,4 +44,15 @@ button {
     cursor: pointer;
   }
 
+  .owner{
+    /* background: #000; */
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 5%;
+    color: #0b2f41;
+    text-shadow: 2px 5px 5px #2f3542; word-spacing: 10px; margin-bottom: 15px; 
+ font-size:2.5rem; text-transform: uppercase; letter-spacing: 2px; 
+  }
+
  
