@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Check Your Personality</title>
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+<body>
+  <section>
+    <h1>What dose your name say about your persnolity</h1>
+    <div class="centerDiv">
+      <div class="details">
+        <label>Enter Your Name</label> <br>
+        <input type="text" id="userId" name"">
+      </div>
+      <din class="imgdiv">
+        <img src="./assets/sixPack.jpg" alt="" width="200" height="200" class="imgchange">
+      </din>
+      <button> Click Me</button>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>">
+  <script>
+                   $(document).ready(function(){
+                    $('button').click(function(){
+                      const name = $("#userId").val();
+                      alert(name);
+                      $('.imgchange').attr('src', `https://joesch.moe/api/v1/${name}`);
+                    })
+                   })
+  </script>
+                  
+  
+</body>
+</html>
